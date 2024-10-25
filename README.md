@@ -7,7 +7,6 @@
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Contributing](#contributing)
-7. [License](#license)
 8. [Contact](#contact)
 
 ---
@@ -117,3 +116,15 @@ To run the scripts to import the json data
 ## 4. Viewing Animation
 
 To view your animation, press **'space'** in **3D Viewport**.
+
+## Contributing
+- Anish Nakhale, Computer Engineering student at Vidyalankar Institute of Technology
+- Siddharth Singh, Computer Engineering student at Vidyalankar Institute of Technology
+- Shivanshu Pandey, Computer Engineering student at Vidyalankar Institute of Technology
+
+## Contact
+- **LinkedIn**: https://www.linkedin.com/in/shivam-pachpute-34556025b
+- **Gmail**: shivampachpute2004@gmail.com
+- **Outlook**: shivampachpute2004@outlook.com
+- **Github**: https://github.com/XlaSh9914
+- **Discord**: xlash_legit
