@@ -80,10 +80,10 @@ python face_detect.py
 python static_pose_detect.py
 ```
 
--**Instructions**: 
+- **Instructions**: 
   -Press "Q" to stop recording and store json file
 
--**Warning**:
+- **Warning**:
   - Running script again after successful execution will override the json file
 
 ## 2. Setting up Blender files
