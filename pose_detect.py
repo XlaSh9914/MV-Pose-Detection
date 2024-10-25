@@ -38,7 +38,7 @@ class PoseLandmarkCapture:
         self.frame_count = 0
 
     def capture_landmarks(self):
-        cap = cv2.VideoCapture(r"D:\Projects\MV-Pose-Detection\WhatsApp Video 2024-10-25 at 12.13.33 AM.mp4")
+        cap = cv2.VideoCapture(r".\test_data\pose_detection_test.mp4")
 
         if not cap.isOpened():
             raise RuntimeError("Could not open video capture device")
@@ -92,7 +92,7 @@ class PoseLandmarkCapture:
         self.pose_data.append(current_frame)
 
     def save_pose_data(self):
-        filename = f'pose_data.json'
+        filename = r'.\generated_data\pose_data.json'
         with open(filename, 'w') as f:
             json.dump({
                 'metadata': {

@@ -71,7 +71,7 @@ while cap.isOpened():
         print(json_data)
 
         # Optionally, write the JSON data to a file
-        with open("body_bone_data_named.json", "w") as f:
+        with open(".\generated_data\static_pose_data.json", "w") as f:
             f.write(json_data)
 
     # Display the frame

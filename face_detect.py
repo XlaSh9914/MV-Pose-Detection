@@ -44,7 +44,7 @@ class FacialLandmarkCapture:
         self.frame_count = 0
 
     def capture_landmarks(self):
-        cap = cv2.VideoCapture(r"D:\Projects\MV-Pose-Detection\video_2024-10-25_10-56-28.mp4")
+        cap = cv2.VideoCapture(r".\test_data\face_detection_test.mp4")
         
         if not cap.isOpened():
             raise RuntimeError("Could not open video capture device")
@@ -100,7 +100,7 @@ class FacialLandmarkCapture:
         self.face_data.append(current_frame)
 
     def save_face_data(self):
-        filename = f'face_data.json'
+        filename = r'.\generated_data\face_data.json'
         with open(filename, 'w') as f:
             json.dump({
                 'metadata': {
