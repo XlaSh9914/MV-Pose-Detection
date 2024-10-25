@@ -64,7 +64,7 @@ To get a local copy up and running, follow these simple steps:
     pip install -r requirements.txt
     ```
     install blender
-    (to se errors while execution open blender through cmd)
+    (to see errors while execution open blender through cmd)
 
 ---
 
@@ -93,17 +93,17 @@ To set up blender files for running:
 - **Set file locations**: Do the following changes to set the location of input file (json):
   - **For face_rig.py**: 
   ```bash
-78 json_path = r"D:\Projects\MV-Pose-Detection\face_data.json"  # Update this path to where your json file is stored
-```
+  78 json_path = r"D:\Projects\MV-Pose-Detection\face_data.json"  # Update this path to where your json file is stored
+  ```
   - **For pose_rig.py**:
   ```bash
-80 json_path = r"D:\Projects\MV-Pose-Detection\pose_data.json"  # Update this path to where your json file is stored
-```
+  80 json_path = r"D:\Projects\MV-Pose-Detection\pose_data.json"  # Update this path to where your json file is stored
+  ```
 
   - **For static_pose_rig.py**:
   ```bash
-12 with open(r"D:\Projects\MV-Pose-Detection\generated_data\static_pose_data.json") as f: # Update this path to where your json file is stored
-```
+  12 with open(r"D:\Projects\MV-Pose-Detection\generated_data\static_pose_data.json") as f: # Update this path to where your json file is stored
+  ```
 
 ## 3. Run the Blender scripts
 
