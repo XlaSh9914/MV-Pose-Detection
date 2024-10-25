@@ -13,7 +13,7 @@
 
 ## Project Description
 
-This project provides a human pose detection system that interfaces with Blender to create a fully-rigged armature for animation. By capturing human posture from either video input or a live camera, the system generates detailed skeletal data for a realistic rig, enabling animations to mirror real-time or recorded movements.
+ This project provides a human pose detection system that interfaces with Blender to create a fully-rigged armature for animation. By capturing human posture from either video input or a live camera, the system generates detailed skeletal data for a realistic rig, enabling animations to mirror real-time or recorded movements.
 ---
 
 ## Project Domain
